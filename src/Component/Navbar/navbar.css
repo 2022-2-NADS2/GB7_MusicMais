@@ -1,0 +1,64 @@
+.mainNavbar{
+          display: flex;
+          width: 100%;
+          margin: auto;
+          justify-content: space-between;
+          background-color: #92f7d6;
+          border-bottom-left-radius: 13px;
+          border-bottom-right-radius: 13px;
+}
+.searchInputContainer{
+          display: flex;
+          align-items: center;
+          flex: 4;
+          margin-top: 14px;
+          background-color: #ffffff;
+          padding: 5px;
+          border-radius: 40px;
+}
+.IconsContainer{
+          display: flex;
+          align-items: center;
+          flex: 0.22;
+}
+.LogoContainer{
+          flex: 0.2;
+}
+.LogoContainer p{
+    position: relative;
+    font-size: 18px;
+    font-weight: 700;
+}
+.LogoContainer p a{
+    text-decoration: none;
+    color: #1b2127;
+}
+
+.Icons{
+          width: 20px;
+          height: 20px;
+          margin-left: 20px;
+}
+.searchIcon{
+          width: 20px;
+          height: 20px;
+}
+
+.ProfileImage{
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          margin-left: 20px;
+          border: 2px solid #1b2127;
+}
+
+.searchInput{
+          width: 20pc;
+          border: none;
+          border-radius: 10px;
+          background-color: #ffffff;
+}
+.username{
+    text-decoration: none;
+    color: #1b2127;
+}
